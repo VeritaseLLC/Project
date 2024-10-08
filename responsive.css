@@ -1,0 +1,643 @@
+@media only screen and (max-width: 768px) {
+    .header-right {
+        display: none;
+        font-size: 12px;
+        margin-right: -70px;
+
+    }
+
+    .header-right.active {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .header-right img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .center-logo {
+        width: 40px;
+        height: 2 0px;
+    }
+
+    .menu-image {
+        width: 20px;
+        padding-left: 2px;
+        height: 20px;
+    }
+
+    .about-content {
+        position: relative;
+        margin-top: -11%;
+    }
+
+    .flip-card {
+        width: 150px;
+        height: 250px;
+    }
+
+    .flip-card-1 {
+        width: 150px;
+        height: 250px;
+    }
+
+    .flip-card-2 {
+        width: 150px;
+        height: 250px;
+    }
+
+    .flip-card-3 {
+        width: 150px;
+        height: 250px;
+    }
+
+    .flip-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .flip-card-front h3 {
+        font-size: 1em;
+    }
+
+    .flip-card-back h3 {
+        font-size: 1em;
+    }
+
+    .flip-card-front h4 {
+        font-size: 1em;
+    }
+
+    .flip-card-front p {
+        font-size: 0.8em;
+    }
+
+    .flip-card-back h4 {
+        font-size: 1em;
+    }
+
+    .flip-card-back p {
+        font-size: 0.8em;
+    }
+
+    .our-product-sub-content {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .section-content-description-text-1 {
+        position: relative;
+        margin-top: 1%;
+        font-size: 12px;
+    }
+
+    .team-section-1 img {
+        width: 50%;
+        height: auto;
+        object-fit: cover;
+
+    }
+
+    .about-section-content {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .section-content-description-image {
+
+        margin-top: 150px;
+        margin-bottom: 0;
+        object-fit: cover;
+    }
+
+
+    .about-section-dotted-line {
+        position: absolute;
+        left: 15px;
+        top: 198px;
+        width: 12%;
+    }
+
+    .about-section-dotted-lines {
+        width: 12%;
+        top: -474px;
+        left: 161px;
+    }
+
+    .dotted-line-second {
+        margin-top: 36px;
+    }
+
+    .we-are-content-1 {
+        height: 500px;
+
+    }
+
+    .about-section-column-row-last {
+        padding-left: 20px;
+    }
+
+    .about-section-column-row-last-title {
+        padding-left: 5px;
+        padding-top: 10px;
+    }
+
+    .team-btn {
+        position: absolute;
+        top: 55%;
+    }
+
+    .g-network {
+        margin-top: 305%;
+    }
+
+    .main-image {
+        width: 70%;
+        height: auto;
+    }
+
+    .red {
+        width: 2px;
+        height: 2px;
+    }
+
+    .red-dot-1 {
+        position: absolute;
+        margin-top: 80px;
+        margin-left: -165px;
+    }
+
+    .red-dot-2 {
+        position: absolute;
+        margin-top: 97px;
+        margin-left: -145px;
+    }
+
+    .red-dot-3 {
+        position: absolute;
+        margin-top: 99px;
+        margin-left: -142px;
+    }
+
+    .red-dot-4 {
+        position: absolute;
+        margin-top: 97px;
+        margin-left: -124px;
+    }
+
+    .red-dot-5 {
+        position: absolute;
+        margin-top: 82px;
+        margin-left: -113px;
+    }
+
+    .red-dot-6 {
+        position: absolute;
+        margin-top: 123px;
+        margin-left: -100px;
+    }
+
+    .icon-text {
+        font-size: 0.8em;
+    }
+
+    .row-list .icon {
+        width: 20px;
+        height: 20px;
+    }
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+}
+
+@media only screen and (max-width:1200px) {
+    header {
+        height: 70vh;
+    }
+
+    .header-right {
+        display: none;
+        font-size: 12px;
+        margin-right: -70px;
+
+    }
+
+    .header-right.active {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .header-right img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .about-content {
+        padding-top: 25%;
+    }
+
+    .about-section-dotted-line {
+        position: absolute;
+        left: 48px;
+        top: 178px;
+        width: 12%;
+    }
+
+    .about-section-dotted-lines {
+        width: 12%;
+        top: -474px;
+        left: 158px;
+    }
+
+    .dotted-line-second {
+        margin-top: 35px;
+    }
+
+    .about-section-column-row-last {
+        padding-left: 20px;
+    }
+
+    .our-product {
+        margin-top: 10px;
+    }
+
+    .about-section-content {
+        height: 100px;
+
+    }
+
+
+
+    .section-content {
+        gap: 8px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+    .section-content-description-row {
+        margin-right: 16px;
+        gap: 28px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .team {
+        height: 200px;
+    }
+
+    .team img {
+        height: 200px;
+        width: 30%;
+        margin-top: 50px;
+        margin-bottom: 0;
+        object-fit: cover;
+        border-radius: 20px;
+
+
+    }
+
+    .section-content-explore-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+
+
+    }
+    .team-section-1{
+        display: flex;
+        flex-direction: column;
+    }
+    .employee-image{
+        top:180px; 
+    }
+    .section-content-explore-image{
+        position:absolute;
+      top:170px;
+          left:610px;
+      }
+.section-content-description-image{
+    position: absolute;
+    top: 170px;
+}
+.section-content-employee-image-first{
+    position:absolute;
+    top:150%;
+    left:20%;
+}
+.section-content-employee-image-second{
+    position:absolute;
+    margin-left:53%;
+    top:150%;
+}
+    .team-btn {
+        position:absolute;
+        margin-top: 50%;
+    }
+.g-network {
+    margin-top: 70%;
+    overflow: hidden;
+}
+.line-image-1{
+   margin-left: 55px;
+  }
+  .line-image-2{
+   margin-left: 55px;
+  }
+  .line-image-3{
+    margin-left: 55px;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+   
+    header {
+        height: 50vh;
+    }
+
+    #rightSide {
+        display: none;
+    }
+    
+    .center-logo img {
+        height: 20px;
+    }
+
+    .video-container img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .about-content {
+        padding-top: 2%;
+    }
+
+    .we-do-content {
+        padding-top: 2%;
+    }
+
+    .about-image {
+        padding-top: 5%;
+    }
+
+    .flip-card {
+        width: 150px;
+        height: 250px;
+    }
+
+    .flip-card-1 {
+        width: 150px;
+        height: 250px;
+    }
+
+    .flip-card-2 {
+        width: 150px;
+        height: 250px;
+    }
+
+    .flip-card-3 {
+        width: 150px;
+        height: 250px;
+    }
+
+    .flip-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .employee-image {
+        position: relative;
+        height: 260px;
+        left: 65px;
+        top: 50px;
+        width: 100%;
+       
+    }
+
+    .section-content-description-text-1 {
+        position: relative;
+        margin-top: 1%;
+        font-size: 12px;
+    }
+
+    .team-section-1 img {
+        width: 50%;
+        height: auto;
+        /* object-fit: cover; */
+
+    }
+
+    .about-section-content {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .section-content-description-image {
+        /* margin-top: 150px;
+        margin-bottom: -30px; */
+        object-fit: cover;
+        padding-top: 20px;
+        margin-left: 10px;
+    }
+    .section-content-explore-image{
+       position: absolute;
+       left: 24.5%;
+       top: 240%;
+    }
+
+    .section-content-employee-image-first {
+        top:327%;
+        margin-left: 10px;
+    }
+
+    .section-content-employee-image-second {
+        top:470%;
+        margin-left: 80px;
+    }
+
+    .about-section-dotted-line {
+        position: absolute;
+        left: 10px;
+        top: 198px;
+        width: 12%;
+    }
+
+    .about-section-dotted-lines {
+        width: 12%;
+        top: -474px;
+        left: 158px;
+    }
+
+    .dotted-line-second {
+        margin-top: 70px;
+    }
+
+    .we-are-content {
+        padding-top: 10px;
+    }
+
+    .we-are-content-1 {
+        height: 500px;
+
+    }
+
+    .about-section-column-row-last {
+        padding-left: 20px;
+    }
+
+    .about-section-column-row-last-title {
+        padding-left: 5px;
+        padding-top: 10px;
+    }
+
+    .team-btn {
+        position: absolute;
+        margin-top: 950px;
+    }
+
+    .g-network {
+        margin-top: 245%;
+    }
+
+    .main-image {
+        width: 70%;
+        height: auto;
+    }
+
+    .red {
+        width: 2px;
+        height: 2px;
+    }
+
+    .red-dot-1 {
+        position: absolute;
+        margin-top: 80px;
+        margin-left: -165px;
+    }
+
+    .red-dot-2 {
+        position: absolute;
+        margin-top: 97px;
+        margin-left: -145px;
+    }
+
+    .red-dot-3 {
+        position: absolute;
+        margin-top: 99px;
+        margin-left: -142px;
+    }
+
+    .red-dot-4 {
+        position: absolute;
+        margin-top: 97px;
+        margin-left: -124px;
+    }
+
+    .red-dot-5 {
+        position: absolute;
+        margin-top: 82px;
+        margin-left: -113px;
+    }
+
+    .red-dot-6 {
+        position: absolute;
+        margin-top: 123px;
+        margin-left: -100px;
+    }
+
+    .icon-text {
+        font-size: 0.8em;
+    }
+
+    .row-list .icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer-text {
+        font-size: 0.7em;
+        padding-top: 10px;
+    }
+
+    .footer-link {
+        font-size: 0.7em;
+        padding-top: 10px;
+
+
+    }
+
+    .footer-link img {
+        width: 20px;
+        height: 20px;
+
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 0.6em;
+    }
+
+    h4 {
+        font-size: 1em;
+    }
+
+    .para {
+        font-size: 0.9em;
+    }
+
+    .para-sub {
+        font-size: 0.9em;
+    }
+
+    .about-text-para {
+        font-size: 0.9em;
+    }
+
+    .we-are-para {
+        font-size: 0.9em;
+    }
+
+    .product-subpara {
+        font-size: 20px;
+        
+    }
+
+    .product-head-1 {
+        font-size: 25px;
+    }
+    .line-image-1{
+        display: none;
+    }
+    .line-image-2{
+        display: none;
+    }
+    .line-image-3{
+        display: none;
+    }
+}
