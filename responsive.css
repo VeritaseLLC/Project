@@ -84,21 +84,21 @@
         font-size: 0.8em;
     }
 
-    .our-product-sub-content {
-        font-size: 20px;
+    /* .our-product-sub-content {
+        font-size: 15px;
         width: 100%;
-    }
+    } */
 
     .section-content-description-text-1 {
         position: relative;
         margin-top: 1%;
-        font-size: 12px;
+        font-size: 14.4px;
     }
 
     .team-section-1 img {
         width: 50%;
         height: auto;
-        object-fit: cover;
+        display: flex;
 
     }
 
@@ -209,10 +209,11 @@
         width: 20px;
         height: 20px;
     }
-.icon{
-    width: 20px;
-    height: 20px;
-}
+
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
 
 }
 
@@ -317,53 +318,103 @@
 
 
     }
-    .team-section-1{
+
+    .team-section-1 {
         display: flex;
         flex-direction: column;
     }
-    .employee-image{
-        top:180px; 
+
+    .employee-image {
+        top: 180px;
     }
-    .section-content-explore-image{
-        position:absolute;
-      top:170px;
-          left:610px;
-      }
-.section-content-description-image{
-    position: absolute;
-    top: 170px;
-}
-.section-content-employee-image-first{
-    position:absolute;
-    top:150%;
-    left:20%;
-}
-.section-content-employee-image-second{
-    position:absolute;
-    margin-left:53%;
-    top:150%;
-}
+
+    .section-content-explore-image {
+        position: absolute;
+        top: 170px;
+        left: 610px;
+    }
+
+    .section-content-description-image {
+        position: absolute;
+        top: 170px;
+    }
+
+    .section-content-employee-image-first {
+        position: absolute;
+        top: 150%;
+        left: 20%;
+    }
+
+    .section-content-employee-image-second {
+        position: absolute;
+        margin-left: 53%;
+        top: 150%;
+    }
+
     .team-btn {
-        position:absolute;
+        position: absolute;
         margin-top: 50%;
     }
-.g-network {
-    margin-top: 70%;
-    overflow: hidden;
-}
-.line-image-1{
-   margin-left: 55px;
-  }
-  .line-image-2{
-   margin-left: 55px;
-  }
-  .line-image-3{
-    margin-left: 55px;
-  }
-}
 
-@media only screen and (max-width: 578px) {
+    .g-network {
+        margin-top: 70%;
+        overflow: hidden;
+    }
+
+    .line-image-1 {
+        margin-left: 55px;
+    }
+
+    .line-image-2 {
+        margin-left: 55px;
+    }
+
+    .line-image-3 {
+        margin-left: 55px;
+    }
+}
+/* @media only screen and (max-width:940px){
+    h2{
+        font-size: 1.5em;
+    }
+    .about-text-para{
+        font-size: 1em;
+    }
+    .we-are-para{
+        font-size: 1em;
+    }
+    h1{
+        font-size: 2em;
+    }
+    .about-section-dotted-line{
+        margin-left: -55px;
+    }
+    .our-product{
+        margin-top: 100px;
+    }
+    .our-product-sub-image img{
+        width: 50px;
+        height: 50px;
+    }
+    .about-content{
+        padding-top: 20%;
+    }
+    .we-are-content{
+        padding-top: 32%;
+    }
    
+    .our-product-content{
+        margin-top: -50px;
+    }
+    .our-product-content p{
+font-size: 0.7em;
+    }
+    .our-product-content h3{
+        font-size: 1em;
+    }
+} */
+@media only screen and (max-width: 578px) {
+
     header {
         height: 50vh;
     }
@@ -371,7 +422,7 @@
     #rightSide {
         display: none;
     }
-    
+
     .center-logo img {
         height: 20px;
     }
@@ -426,19 +477,19 @@
         left: 65px;
         top: 50px;
         width: 100%;
-       
+
     }
 
     .section-content-description-text-1 {
         position: relative;
-        margin-top: 1%;
+        margin-top: -15px;
         font-size: 12px;
     }
 
     .team-section-1 img {
         width: 50%;
-        height: auto;
-        /* object-fit: cover; */
+        height: 150px;
+        object-fit:fill;
 
     }
 
@@ -450,27 +501,29 @@
     .section-content-description-image {
         /* margin-top: 150px;
         margin-bottom: -30px; */
-        object-fit: cover;
-        padding-top: 20px;
+        /* object-fit: cover;
+        padding-top: 20px; */
+        top:220px;
         margin-left: 10px;
     }
-    .section-content-explore-image{
-       position: absolute;
-       left: 24.5%;
-       top: 240%;
+
+    .section-content-explore-image {
+        position: absolute;
+        left: 24.5%;
+        top: 269%;
     }
 
     .section-content-employee-image-first {
-        top:327%;
+        top: 390%;
         margin-left: 10px;
     }
 
     .section-content-employee-image-second {
-        top:470%;
+        top: 510%;
         margin-left: 80px;
     }
 
-    .about-section-dotted-line {
+     .about-section-dotted-line {
         position: absolute;
         left: 10px;
         top: 198px;
@@ -503,6 +556,20 @@
     .about-section-column-row-last-title {
         padding-left: 5px;
         padding-top: 10px;
+        font-size: 14px;
+    }
+
+    .about-section-column-row-alternate-title {
+        font-size: 14px;
+    }
+
+    .about-section-column-row-final-title {
+        font-size: 14px;
+    }
+
+    .about-section-column-row-title {
+        font-size: 14px;
+
     }
 
     .team-btn {
@@ -588,20 +655,17 @@
     }
 
     h1 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     h2 {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     h3 {
         font-size: 1.2em;
     }
 
-    p {
-        font-size: 0.6em;
-    }
 
     h4 {
         font-size: 1em;
@@ -623,21 +687,40 @@
         font-size: 0.9em;
     }
 
-    .product-subpara {
-        font-size: 20px;
+    /* .product-subpara {
+        font-size: 14.4px;
         
     }
 
     .product-head-1 {
-        font-size: 25px;
+        font-size: 16px;
+    } */
+    .our-product-sub-content h3 {
+        font-size: 15px;
     }
-    .line-image-1{
+
+    .our-product-sub-content p {
+        font-size: 12px;
+    }
+
+    .line-image-1 {
         display: none;
     }
-    .line-image-2{
+
+    .line-image-2 {
         display: none;
     }
-    .line-image-3{
+
+    .line-image-3 {
         display: none;
     }
+
+    .flip-card-front p {
+        font-size: 0.6em;
+    }
+
+    .flip-card-back p {
+        font-size: 0.6em;
+    }
+
 }
